@@ -7,11 +7,11 @@ export const environment = {
   production: false,
   firebase:
   {
-    apiKey: "AIzaSyDcc-5V42TxiEDbUy57bWSGKQTGyeQCskw",
-    authDomain: "testandroid-5f1d5.firebaseapp.com",
-    databaseURL: "https://testandroid-5f1d5.firebaseio.com",
-    projectId: "testandroid-5f1d5",
-    storageBucket: "testandroid-5f1d5.appspot.com",
-    messagingSenderId: "111737187992"
+    apiKey: "AIzaSyC-30waTwPCcTDyvRpWLw72rb7zBl3aIJU",
+    authDomain: "diabeticdata.firebaseapp.com",
+    databaseURL: "https://diabeticdata.firebaseio.com",
+    projectId: "diabeticdata",
+    storageBucket: "",
+    messagingSenderId: "1022348581186"
   }
 };
