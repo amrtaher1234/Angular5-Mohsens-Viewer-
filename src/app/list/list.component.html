@@ -30,8 +30,9 @@
     <div class="form-group">
       <label for="selectDose"> Select Measurement Type</label>
 
-    <select [(ngModel)]="measurementtype"  class="form-control" id="selectDose">
-        <option value=48>Unspecified blood glucose measurement </option>
+    <select [(ngModel)]="measurementtype"   class="form-control" id="selectDose">
+        <!-- <option disabled selected selected> -- select measurement type option -- </option> -->
+        <option selected value=48>Unspecified blood glucose measurement </option>
         <option value=57> Unspecified blood glucose measurement </option>
         <option value=58>Pre-breakfast blood glucose measurement</option>
         <option value=59>Post-breakfast blood glucose measurement</option>

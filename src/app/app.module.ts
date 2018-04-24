@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
 import { environment } from '../environments/environment.prod';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ListComponent } from './list/list.component';
-
+import {AppRoutingModule} from './app-routing-module'; 
 
 @NgModule({
   declarations: [
@@ -26,7 +26,8 @@ import { ListComponent } from './list/list.component';
     AngularFireDatabaseModule , 
     AngularFireAuthModule,
     NgbModule.forRoot(),
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
